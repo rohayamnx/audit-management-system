@@ -1,12 +1,12 @@
 <?php
-ini_set('display_errors',1); // 1 - Sandbox, 0 - Production
+ini_set('display_errors',0); // 1 - Sandbox, 0 - Production
 require_once("user.php");
 
 error_reporting(E_ERROR);
 session_start();
 $dbhost 	= 'localhost';
 $dbuser 	= 'root';
-$dbpasswd	= '';
+$dbpasswd	= 'passw0rd188';
 $dbname		= 'ams';
 
 if(!empty($_POST)){
