@@ -11,6 +11,9 @@ The Audit Management System is designed to help organizations manage and track a
 - Track the status of each audit finding
 - Generate reports on audit findings
 
+## Technologies Used
+- PHP
+
 ## Getting Started
 
 ### 1. Clone the Repository
